@@ -1,7 +1,28 @@
 aid: maza
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maza.png
 name: Maza
-description: Maza is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Maza was an Andreessen Horowitz (a16z) backed consumer fintech startup that
+  helped Spanish-speaking and undocumented immigrants in the United States access
+  the financial system - guiding users through applying for an ITIN (Individual
+  Taxpayer Identification Number), opening a bank account, and obtaining financial
+  services without a Social Security number. Founded in 2022, Maza raised an $8M
+  seed round led by a16z in June 2023 and grew to more than 50,000 users. In April
+  2025 Maza was acquired by Flex for a reported $40M. Maza operated a consumer
+  mobile application only and never published a public developer API, SDK, or event
+  surface; following the acquisition its domains (maza.io, joinmaza.com, maza.us)
+  now resolve to parked landing pages.
 url: https://raw.githubusercontent.com/api-evangelist/maza/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,41 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Flex
+x-acquired-amount-usd: 40000000
+x-acquired-date: '2025-04-24'
+x-no-api-surface: true
+x-no-api-reason: >-
+  Consumer mobile finance app with no public developer API; acquired by Flex in
+  April 2025 and primary domains now parked. Confirmed via live web research
+  (TechCrunch, FintechFutures) and direct domain probing on 2026-07-20.
+x-references:
+- name: 'TechCrunch: No SSN, no problem, says Maza (a16z-led $8M seed)'
+  url: https://techcrunch.com/2023/06/28/no-social-security-number-no-problem-says-maza-a-fintech-startup-that-just-raised-8m-led-by-andreessen-horowitz/
+- name: 'TechCrunch: Flex acquires a16z-backed Maza for $40M'
+  url: https://techcrunch.com/2025/04/24/flex-acquires-a16z-backed-maza-for-40m-as-fintech-ma-heats-up/
+- name: 'FinTech Futures: Flex acquires finance app Maza for reported $40m'
+  url: https://www.fintechfutures.com/m-a/flex-acquires-finance-app-maza-for-reported-40m
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Financial Services
+- Banking
+- Immigration
+- Consumer Finance
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
