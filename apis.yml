@@ -88,3 +88,9 @@ x-coverage:
   evidence: []
   checked: '2026-08-04'
   migrated: true
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/flex/
+  name: Flex
+  x-relationship: acquired
+  x-evidence: "In April 2025 Maza was acquired by Flex for a reported $40M."
