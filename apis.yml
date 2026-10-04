@@ -55,7 +55,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Banking
 - Immigration
 - Consumer Finance
@@ -68,6 +68,7 @@ tags_raw:
 - Immigration
 - Consumer Finance
 - Acquired
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
